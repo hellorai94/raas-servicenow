@@ -22,7 +22,7 @@
         <dynamic_value_field display_value="Movie/TV Show/Episode">a98c7577c3fa52101f5afb377d0131f3</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>active</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -39,7 +39,7 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>poster_url</name>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-07 14:48:02</sys_created_on>
         <sys_id>33f696c0c303d2101f5afb377d01319b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Poster URL</sys_name>
         <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
         <sys_update_name>item_option_new_33f696c0c303d2101f5afb377d01319b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-07 15:29:50</sys_updated_on>
+        <sys_updated_on>2025-01-07 18:30:33</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
