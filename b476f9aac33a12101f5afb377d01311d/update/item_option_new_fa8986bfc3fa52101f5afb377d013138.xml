@@ -24,7 +24,7 @@
         <example_text/>
         <field>description</field>
         <global>false</global>
-        <help_tag>More information</help_tag>
+        <help_tag/>
         <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
@@ -49,7 +49,7 @@
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Comment here, if you want:</question_text>
+        <question_text>Description</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-06 19:16:49</sys_created_on>
         <sys_id>fa8986bfc3fa52101f5afb377d013138</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>description</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Description</sys_name>
         <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
         <sys_update_name>item_option_new_fa8986bfc3fa52101f5afb377d013138</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-06 20:51:10</sys_updated_on>
+        <sys_updated_on>2025-01-07 13:26:32</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

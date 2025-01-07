@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Media Review">4f87f5ffc3ba52101f5afb377d013174</catalog_item>
+        <catalog_variable>IO:a98c7577c3fa52101f5afb377d0131f3</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 13:46:47</sys_created_on>
+        <sys_id>7c39ca40c3cf92101f5afb377d01310a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>media</sys_name>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7c39ca40c3cf92101f5afb377d01310a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 13:56:20</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make media and rating mandatory">c3294a00c3cf92101f5afb377d013121</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>media</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c39ca40c3cf92101f5afb377d01310a"/>
+</record_update>

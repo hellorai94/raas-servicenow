@@ -4,7 +4,7 @@
         <element label="Release Date" max_length="40" name="release_date" type="glide_date"/>
         <element default="0" label="Average Rating" max_length="255" name="average_rating" type="float"/>
         <element label="Country" max_length="250" name="country" type="string"/>
-        <element label="Poster" max_length="40" name="poster" type="url"/>
+        <element label="Poster" max_length="1000" name="poster" type="url"/>
         <element label="Awards" max_length="250" name="awards" type="string"/>
         <element label="Language" max_length="250" name="language" type="string"/>
         <element label="Website" max_length="40" name="website" type="url"/>
