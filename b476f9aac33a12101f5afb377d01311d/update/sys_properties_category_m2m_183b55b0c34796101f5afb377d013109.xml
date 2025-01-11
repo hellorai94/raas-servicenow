@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="RaaS">0ef5113cc30796101f5afb377d01312a</category>
+        <order>400</order>
+        <property display_value="x_1593191_raas.integration_plot" name="x_1593191_raas.integration_plot">6399d9fcc30796101f5afb377d013137</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-09 18:21:04</sys_created_on>
+        <sys_id>183b55b0c34796101f5afb377d013109</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593191_raas.integration_plot.RaaS</sys_name>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_183b55b0c34796101f5afb377d013109</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-09 18:21:04</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

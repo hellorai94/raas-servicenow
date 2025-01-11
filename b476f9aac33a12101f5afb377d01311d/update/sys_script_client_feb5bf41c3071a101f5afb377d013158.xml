@@ -4,31 +4,42 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>poster</field>
+        <field>integration_state</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Load Poster</name>
+        <name>Integration State - Error Message</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   // Pega o valor do field e, caso tenha informação, mostra o poster, caso esteja em branco, o poster some
-	g_form.getElement("poster_image").src = newValue;	
-}]]></script>
+	// Se o valor da "integration_state" for o correspondente ao de 4 ou 7, mostra uma mensagem de error com o valor do campo "integration_error_message"
+    if (newValue === '') {
+        return;
+    }
+		if(newValue === "4" || newValue === "7"){
+			var mediaName = g_form.getValue("title");
+			var errorMessage = g_form.getValue("integration_error_message");
+			g_form.addErrorMessage(mediaName + " " + errorMessage + "." );
+	} else {
+		g_form.clearMessages();
+   }
+}
+
+]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-08 20:05:25</sys_created_on>
+        <sys_created_on>2025-01-11 00:14:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1798ec64c38f16101f5afb377d0131e2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Load Poster</sys_name>
+        <sys_id>feb5bf41c3071a101f5afb377d013158</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Integration State - Error Message</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
-        <sys_update_name>sys_script_client_1798ec64c38f16101f5afb377d0131e2</sys_update_name>
+        <sys_update_name>sys_script_client_feb5bf41c3071a101f5afb377d013158</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-11 01:04:33</sys_updated_on>
+        <sys_updated_on>2025-01-11 00:44:28</sys_updated_on>
         <table>x_1593191_raas_media</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
