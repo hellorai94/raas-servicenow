@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>genre</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 13:53:02</sys_created_on>
+        <sys_id>f6cd4a5ac34bd2101f5afb377d01312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>genre</sys_name>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f6cd4a5ac34bd2101f5afb377d01312b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 13:53:02</sys_updated_on>
+        <table>x_1593191_raas_media</table>
+        <ui_policy display_value="Read Only Fields when status in Media is 'Complete'">b60aced2c34bd2101f5afb377d0131c2</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=f6cd4a5ac34bd2101f5afb377d01312b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</application>
+        <file_path/>
+        <instance_id>b49b406edb92f9d04162684e1396196b</instance_id>
+        <instance_name>dev206495</instance_name>
+        <name>sys_ui_policy_action_f6cd4a5ac34bd2101f5afb377d01312b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>genre</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 13:53:02</sys_created_on><sys_id>f6cd4a5ac34bd2101f5afb377d01312b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>genre</sys_name><sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package><sys_policy/><sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope><sys_update_name>sys_ui_policy_action_f6cd4a5ac34bd2101f5afb377d01312b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 13:53:02</sys_updated_on><table>x_1593191_raas_media</table><ui_policy display_value="Read Only Fields when status in Media is 'Complete'">b60aced2c34bd2101f5afb377d0131c2</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=f6cd4a5ac34bd2101f5afb377d01312b"/></record_update>]]></payload>
+        <payload_hash>277532800</payload_hash>
+        <record_name>genre</record_name>
+        <reverted_from/>
+        <source>72baf07bc33252101f5afb377d013166</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 13:53:02</sys_created_on>
+        <sys_id>72cd4a5ac34bd2101f5afb377d01312e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946516d4860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 13:53:02</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>76cd4a5a3d4bd210e0e52fc05da8162d</update_guid>
+        <update_guid_history>76cd4a5a3d4bd210e0e52fc05da8162d:277532800</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 13:53:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1cd982fc68dc4d8abb790e34548cabc4</sys_id>
+        <sys_metadata>f6cd4a5ac34bd2101f5afb377d01312b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>genre</sys_name>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_parent display_value="Read Only Fields when status in Media is 'Complete'">b60aced2c34bd2101f5afb377d0131c2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_scope_delete display_value="">09fba108fcf048ec80a4aa10235a4584</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_f6cd4a5ac34bd2101f5afb377d01312b</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_f6cd4a5ac34bd2101f5afb377d01312b">72cd4a5ac34bd2101f5afb377d01312e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 13:53:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

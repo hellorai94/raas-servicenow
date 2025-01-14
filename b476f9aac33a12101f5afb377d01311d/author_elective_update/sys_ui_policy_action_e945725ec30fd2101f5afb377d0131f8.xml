@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>average_rating</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 16:45:32</sys_created_on>
+        <sys_id>e945725ec30fd2101f5afb377d0131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>average_rating</sys_name>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e945725ec30fd2101f5afb377d0131f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 16:45:32</sys_updated_on>
+        <table>x_1593191_raas_media</table>
+        <ui_policy display_value="Average Rating  Read Only Fields">6e25fa1ec30fd2101f5afb377d0131fd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e945725ec30fd2101f5afb377d0131f8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</application>
+        <file_path/>
+        <instance_id>b49b406edb92f9d04162684e1396196b</instance_id>
+        <instance_name>dev206495</instance_name>
+        <name>sys_ui_policy_action_e945725ec30fd2101f5afb377d0131f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>average_rating</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 16:45:32</sys_created_on><sys_id>e945725ec30fd2101f5afb377d0131f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>average_rating</sys_name><sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package><sys_policy/><sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope><sys_update_name>sys_ui_policy_action_e945725ec30fd2101f5afb377d0131f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 16:45:32</sys_updated_on><table>x_1593191_raas_media</table><ui_policy display_value="Average Rating  Read Only Fields">6e25fa1ec30fd2101f5afb377d0131fd</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e945725ec30fd2101f5afb377d0131f8"/></record_update>]]></payload>
+        <payload_hash>-317835861</payload_hash>
+        <record_name>average_rating</record_name>
+        <reverted_from/>
+        <source>72baf07bc33252101f5afb377d013166</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 16:45:32</sys_created_on>
+        <sys_id>a145725ec30fd2101f5afb377d0131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19465b4c09e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 16:45:32</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>a545725e320fd21010cceca7d54fe7fa</update_guid>
+        <update_guid_history>a545725e320fd21010cceca7d54fe7fa:-317835861</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 16:46:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>2728b21040504a38ade3a85e2082d609</sys_id>
+        <sys_metadata>e945725ec30fd2101f5afb377d0131f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>average_rating</sys_name>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_parent display_value="Average Rating  Read Only Fields">6e25fa1ec30fd2101f5afb377d0131fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_scope_delete display_value="">09fba108fcf048ec80a4aa10235a4584</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e945725ec30fd2101f5afb377d0131f8</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e945725ec30fd2101f5afb377d0131f8">a145725ec30fd2101f5afb377d0131fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 16:46:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
