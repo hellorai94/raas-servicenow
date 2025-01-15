@@ -2,7 +2,7 @@
     <sys_ui_list_control action="INSERT_OR_UPDATE">
         <columns_condition/>
         <disable_nlq>false</disable_nlq>
-        <edit_condition><![CDATA[if (parent.state == "3") {
+        <edit_condition><![CDATA[if (parent.state.toString() == "3" ||  parent.state.toString() == "7") {
 	answer = true;
 } else {
 	answer = false;
@@ -20,7 +20,7 @@
         <list_edit_ref_qual_tag/>
         <list_edit_type/>
         <name>x_1593191_raas_media</name>
-        <new_condition><![CDATA[if (parent.state == "3") {
+        <new_condition><![CDATA[if (parent.state.toString() == "3" ||  parent.state.toString() == "7") {
 	answer = true;
 } else {
 	answer = false;
@@ -35,7 +35,7 @@
         <omit_filters>false</omit_filters>
         <omit_if_empty>false</omit_if_empty>
         <omit_links>false</omit_links>
-        <omit_new_button>false</omit_new_button>
+        <omit_new_button>true</omit_new_button>
         <related_list>x_1593191_raas_m2m_director_media.x_1593191_raas_media</related_list>
         <sys_class_name>sys_ui_list_control</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -43,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9e4b8f6ec30752101f5afb377d013190</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_1593191_raas_media</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
@@ -51,7 +51,7 @@
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
         <sys_update_name>sys_ui_list_control_9e4b8f6ec30752101f5afb377d013190</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 13:16:22</sys_updated_on>
+        <sys_updated_on>2025-01-15 18:46:43</sys_updated_on>
     </sys_ui_list_control>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>9e4b8f6ec30752101f5afb377d013190</id>

@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=94150000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=136672000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>suggestion_lifecyle</internal_name>
-        <label_cache>[{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Director","label":"15 - Integration OMDB API➛Media➛Director","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"989885ac-98d3-44c7-89a4-7f5240d3be7d":["directors"],"eab0f63f-5cbf-48a8-91e0-35e19b545341":["directors"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Actors","label":"15 - Integration OMDB API➛Media➛Actors","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e0b2ee4e-f7fe-4b92-b70e-82153506abe3":["actors"],"584dde3c-d424-4952-9488-245545326604":["actors"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media","label":"15 - Integration OMDB API➛Media","reference_display":"Media","type":"object","base_type":"object","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["title","writers"]},"attributes":{"sourceId":"8e04190a-886f-4e21-8e0f-4dd9ce633821","uiTypeLabel":"Object","co_type_name":"FD04c27db063c796101d5d7d2f63d1f05e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"1dbb53c2-6d11-4582-bc3c-de49fe73c539","uiType":"object","uiUniqueId":"d6a0581e-458a-448c-88a9-07f13f47b288"}},{"name":"fda02fce-88f1-4082-ae52-d85c2510d92c.record","label":"9 - Create Record➛Media Record","reference":"x_1593191_raas_media","reference_display":"Media Record","type":"reference","base_type":"reference","usedInstances":{"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["record"],"e0b2ee4e-f7fe-4b92-b70e-82153506abe3":["media"],"989885ac-98d3-44c7-89a4-7f5240d3be7d":["media"],"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["record"],"584dde3c-d424-4952-9488-245545326604":["media"],"eab0f63f-5cbf-48a8-91e0-35e19b545341":["media"],"6772f000-266f-4794-9dfa-9acd11bf1eb8":["record"],"f84488d4-bf87-46e3-aad9-00659926bb2f":["record"],"54cd2116-ce59-485a-ab52-f76b7bbb7121":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Response","label":"15 - Integration OMDB API➛Media➛Response","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"c515a66d-c8b4-4fe2-9c7d-31ad2d28c984":["condition"]},"attributes":{}},{"name":"cc3f566f-a021-4653-b608-bfd598cf5b6b.duration","label":"19 - Convert Seconds Into Duration➛Duration","reference_display":"Duration","type":"glide_duration","base_type":"glide_duration","usedInstances":{"b231d5b4-a755-4b82-8836-d55610114a2f":["timer_duration"]},"attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a95dff0f-6697-4279-b5c9-5385737e7609"}},{"name":"flow_variable.retry_timeout","label":"Flow Variables➛Retry Timeout","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"cc3f566f-a021-4653-b608-bfd598cf5b6b":["seconds"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0ad49f43-b359-4b42-bd6c-4d08144afd5b"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.__action_status__.message","label":"15 - Integration OMDB API➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"3def2321-c329-4d59-90b3-2f45b0374518":["integration_error_message-1"]},"attributes":{}},{"name":"flow_variable.current_try","label":"Flow Variables➛Current Try","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"abb6d4aa-9345-4268-a58b-a3375e673b92":["condition"],"c4a7631a-a267-4cd4-ab67-913b50dfbdbc":["condition"],"31d271af-d549-438d-b692-b7db6ca08975":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"3fef1f34-ff95-4e35-ab9a-925790b3ac31"}},{"name":"flow_variable.retry_count","label":"Flow Variables➛Retry Count","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"c4a7631a-a267-4cd4-ab67-913b50dfbdbc":["condition"],"31d271af-d549-438d-b692-b7db6ca08975":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6e5cd4e2-f9b9-4dbb-b8b0-672e3c9966cb"}},{"name":"flow_variable.curreny_try","label":"Flow Variables➛Curreny Try","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ba67f2d2-ae03-4d8f-9ca1-5f1d25838ec5"}},{"name":"flow_variable.integration_successful","label":"Flow Variables➛Integration Successful","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"e255efbb-f008-4bfc-8a1b-e9e9ab051376":["condition"],"abb6d4aa-9345-4268-a58b-a3375e673b92":["condition"],"c4a7631a-a267-4cd4-ab67-913b50dfbdbc":["condition"],"c619d7ab-1243-4a7c-853a-3396c476f495":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dbe6ad19-f4d7-45b0-9973-57ee19d96841"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.__action_status__.code","label":"15 - Integration OMDB API➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"1f8f1c3e-b263-4927-a54c-aebc3580249d":["condition"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.__action_status__","label":"15 - Integration OMDB API➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{},"attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"a167a0d3-169d-4a3c-95e9-7299ad90b6f7"}},{"name":"{{static.8c19fd2ec33a12101f5afb377d0131d8}}","label":"RaaS Admin","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"f2f82a02-c7be-4fee-b526-dff321d56d91":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Suggestion Record","reference":"x_1593191_raas_suggestion","reference_display":"Suggestion","type":"reference","base_type":"reference","usedInstances":{"307becdf-5206-4256-902d-7635c7210f6a":["record"],"f2f82a02-c7be-4fee-b526-dff321d56d91":["record"],"7eedf6bc-631e-4b01-a02b-e48b594accc2":["conditions"],"1009b716-b287-4a16-b947-e4d4080f3fc7":["record"],"a745ecc9-7d47-4a38-b1db-4d12618a2914":["record"],"e609a0e5-ae2e-43e9-82c4-a5dd33ce8493":["record"],"b9a433e9-b716-4d68-97ce-7264feba0589":["record"],"9d9dc285-23cd-4b66-b1bb-e334ff7d1d7d":["record"],"45c71d35-e14a-4f79-aca9-2c2dc813dca5":["record"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["title"],"4195906b-8ead-482c-a481-7aabb39bf601":["record"],"1aa0c59a-df60-4bbc-9c7f-8b0ce482d224":["record"]},"attributes":{}},{"name":"f2f82a02-c7be-4fee-b526-dff321d56d91.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{},"attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f2f82a02-c7be-4fee-b526-dff321d56d91.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"eb2d399e-04a8-4a65-a5c9-d29656f24878":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"307becdf-5206-4256-902d-7635c7210f6a.record.title","label":"1 - Update Record➛Suggestion Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1593191_raas_suggestion","column_name":"title","usedInstances":{}},{"name":"Created_1.current.type","label":"Trigger - Record Created➛Suggestion Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_1593191_raas_suggestion","column_name":"type","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Movie","used":false,"image":"","reference":false,"rawLabel":"Movie","selected":false,"missing":false,"value":"movie","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}},{"label":"Series","used":false,"image":"","reference":false,"rawLabel":"Series","selected":false,"missing":false,"value":"series","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}}],"usedInstances":{"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f":["type"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["type"],"fda02fce-88f1-4082-ae52-d85c2510d92c":["type"]}},{"name":"Created_1.current.title","label":"Trigger - Record Created➛Suggestion Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1593191_raas_suggestion","column_name":"title","usedInstances":{"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f":["title"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["title"],"fda02fce-88f1-4082-ae52-d85c2510d92c":["title"]}},{"name":"Created_1.current.release_year","label":"Trigger - Record Created➛Suggestion Record➛Release Year","reference":"","reference_display":"Release Year","type":"string","base_type":"string","parent_table_name":"x_1593191_raas_suggestion","column_name":"release_year","usedInstances":{"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f":["year"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["release_year"],"fda02fce-88f1-4082-ae52-d85c2510d92c":["release_year"]}},{"name":"flow_variable.active","label":"Flow Variables➛Active","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"7f6e586d-4044-4657-866a-703ff0ddc982":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a2a34018-8a48-4ee8-99ef-591be1bc2298"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Genre","label":"15 - Integration OMDB API➛Media➛Genre","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"d3401181-f563-4b2a-b31a-f8e61854ce87":["genres"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Title","label":"15 - Integration OMDB API➛Media➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["title"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Year","label":"15 - Integration OMDB API➛Media➛Year","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["release_year"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Rated","label":"15 - Integration OMDB API➛Media➛Rated","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["category"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Writer","label":"15 - Integration OMDB API➛Media➛Writer","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["writers"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Plot","label":"15 - Integration OMDB API➛Media➛Plot","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["synopsis"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Language","label":"15 - Integration OMDB API➛Media➛Language","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["language"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Country","label":"15 - Integration OMDB API➛Media➛Country","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["country"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Awards","label":"15 - Integration OMDB API➛Media➛Awards","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["awards"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Poster","label":"15 - Integration OMDB API➛Media➛Poster","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["poster"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Metascore","label":"15 - Integration OMDB API➛Media➛Metascore","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["metascore"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.imdbRating","label":"15 - Integration OMDB API➛Media➛imdbRating","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["imdb_rating"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Type","label":"15 - Integration OMDB API➛Media➛Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["type"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["type"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Production","label":"15 - Integration OMDB API➛Media➛Production","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["production"]},"attributes":{}},{"name":"d3401181-f563-4b2a-b31a-f8e61854ce87.genre_sys_id_list","label":"27 - Create / Retrive Genres➛Genre sys_id_list","reference_display":"Genre sys_id_list","type":"string","base_type":"string","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["genre"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e397f781-a045-4f9a-adbb-a7423ee72c04"}},{"name":"flow_variable.integration_error_message","label":"Flow Variables➛Integration Error Message","type":"string","base_type":"string","usedInstances":{"54cd2116-ce59-485a-ab52-f76b7bbb7121":["integration_error_message"],"01f6f309-6d1d-4eae-a587-cd52ef020513":["description"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b9a5aa7d-8106-423d-8ebd-06c6ed113f87"}},{"name":"307becdf-5206-4256-902d-7635c7210f6a.record.type","label":"1 - Update Record➛Suggestion Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_1593191_raas_suggestion","column_name":"type","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Movie","used":false,"image":"","reference":false,"rawLabel":"Movie","selected":false,"missing":false,"value":"movie","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}},{"label":"Series","used":false,"image":"","reference":false,"rawLabel":"Series","selected":false,"missing":false,"value":"series","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}}],"usedInstances":{"fda02fce-88f1-4082-ae52-d85c2510d92c":["type"]}}]</label_cache>
+        <label_cache>[{"name":"307becdf-5206-4256-902d-7635c7210f6a.record.type","label":"1 - Update Record➛Suggestion Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_1593191_raas_suggestion","column_name":"type","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Movie","used":false,"image":"","reference":false,"rawLabel":"Movie","selected":false,"missing":false,"value":"movie","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}},{"label":"Series","used":false,"image":"","reference":false,"rawLabel":"Series","selected":false,"missing":false,"value":"series","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}}],"usedInstances":{"fda02fce-88f1-4082-ae52-d85c2510d92c":["type"]}},{"name":"flow_variable.integration_error_message","label":"Flow Variables➛Integration Error Message","type":"string","base_type":"string","usedInstances":{"54cd2116-ce59-485a-ab52-f76b7bbb7121":["integration_error_message"],"01f6f309-6d1d-4eae-a587-cd52ef020513":["description"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b9a5aa7d-8106-423d-8ebd-06c6ed113f87"}},{"name":"d3401181-f563-4b2a-b31a-f8e61854ce87.genre_sys_id_list","label":"27 - Create / Retrive Genres➛Genre sys_id_list","reference_display":"Genre sys_id_list","type":"string","base_type":"string","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["genre"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e397f781-a045-4f9a-adbb-a7423ee72c04"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Production","label":"15 - Integration OMDB API➛Media➛Production","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["production"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Type","label":"15 - Integration OMDB API➛Media➛Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["type"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["type"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.imdbRating","label":"15 - Integration OMDB API➛Media➛imdbRating","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["imdb_rating"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Metascore","label":"15 - Integration OMDB API➛Media➛Metascore","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["metascore"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Poster","label":"15 - Integration OMDB API➛Media➛Poster","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["poster"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Awards","label":"15 - Integration OMDB API➛Media➛Awards","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["awards"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Country","label":"15 - Integration OMDB API➛Media➛Country","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["country"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Language","label":"15 - Integration OMDB API➛Media➛Language","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["language"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Plot","label":"15 - Integration OMDB API➛Media➛Plot","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["synopsis"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Writer","label":"15 - Integration OMDB API➛Media➛Writer","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["writers"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Rated","label":"15 - Integration OMDB API➛Media➛Rated","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["category"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Year","label":"15 - Integration OMDB API➛Media➛Year","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["release_year"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Title","label":"15 - Integration OMDB API➛Media➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["title"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Genre","label":"15 - Integration OMDB API➛Media➛Genre","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"d3401181-f563-4b2a-b31a-f8e61854ce87":["genres"]},"attributes":{}},{"name":"flow_variable.active","label":"Flow Variables➛Active","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"7f6e586d-4044-4657-866a-703ff0ddc982":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a2a34018-8a48-4ee8-99ef-591be1bc2298"}},{"name":"Created_1.current.release_year","label":"Trigger - Record Created➛Suggestion Record➛Release Year","reference":"","reference_display":"Release Year","type":"string","base_type":"string","parent_table_name":"x_1593191_raas_suggestion","column_name":"release_year","usedInstances":{"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f":["year"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["release_year"],"fda02fce-88f1-4082-ae52-d85c2510d92c":["release_year"]}},{"name":"Created_1.current.title","label":"Trigger - Record Created➛Suggestion Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1593191_raas_suggestion","column_name":"title","usedInstances":{"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f":["title"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["title"],"fda02fce-88f1-4082-ae52-d85c2510d92c":["title"]}},{"name":"Created_1.current.type","label":"Trigger - Record Created➛Suggestion Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_1593191_raas_suggestion","column_name":"type","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Movie","used":false,"image":"","reference":false,"rawLabel":"Movie","selected":false,"missing":false,"value":"movie","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}},{"label":"Series","used":false,"image":"","reference":false,"rawLabel":"Series","selected":false,"missing":false,"value":"series","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}}],"usedInstances":{"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f":["type"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["type"],"fda02fce-88f1-4082-ae52-d85c2510d92c":["type"]}},{"name":"307becdf-5206-4256-902d-7635c7210f6a.record.title","label":"1 - Update Record➛Suggestion Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1593191_raas_suggestion","column_name":"title","usedInstances":{}},{"name":"f2f82a02-c7be-4fee-b526-dff321d56d91.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"eb2d399e-04a8-4a65-a5c9-d29656f24878":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f2f82a02-c7be-4fee-b526-dff321d56d91.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{},"attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Suggestion Record","reference":"x_1593191_raas_suggestion","reference_display":"Suggestion","type":"reference","base_type":"reference","usedInstances":{"307becdf-5206-4256-902d-7635c7210f6a":["record"],"f2f82a02-c7be-4fee-b526-dff321d56d91":["record"],"7eedf6bc-631e-4b01-a02b-e48b594accc2":["conditions"],"1009b716-b287-4a16-b947-e4d4080f3fc7":["record"],"a745ecc9-7d47-4a38-b1db-4d12618a2914":["record"],"e609a0e5-ae2e-43e9-82c4-a5dd33ce8493":["record"],"b9a433e9-b716-4d68-97ce-7264feba0589":["record"],"9d9dc285-23cd-4b66-b1bb-e334ff7d1d7d":["record"],"45c71d35-e14a-4f79-aca9-2c2dc813dca5":["record"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["title"],"4195906b-8ead-482c-a481-7aabb39bf601":["record"],"1aa0c59a-df60-4bbc-9c7f-8b0ce482d224":["record"]},"attributes":{}},{"name":"{{static.8c19fd2ec33a12101f5afb377d0131d8}}","label":"RaaS Admin","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"f2f82a02-c7be-4fee-b526-dff321d56d91":["approval_conditions"]}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.__action_status__","label":"15 - Integration OMDB API➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{},"attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"a167a0d3-169d-4a3c-95e9-7299ad90b6f7"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.__action_status__.code","label":"15 - Integration OMDB API➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"1f8f1c3e-b263-4927-a54c-aebc3580249d":["condition"]},"attributes":{}},{"name":"flow_variable.integration_successful","label":"Flow Variables➛Integration Successful","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"e255efbb-f008-4bfc-8a1b-e9e9ab051376":["condition"],"abb6d4aa-9345-4268-a58b-a3375e673b92":["condition"],"c4a7631a-a267-4cd4-ab67-913b50dfbdbc":["condition"],"c619d7ab-1243-4a7c-853a-3396c476f495":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dbe6ad19-f4d7-45b0-9973-57ee19d96841"}},{"name":"flow_variable.curreny_try","label":"Flow Variables➛Curreny Try","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ba67f2d2-ae03-4d8f-9ca1-5f1d25838ec5"}},{"name":"flow_variable.retry_count","label":"Flow Variables➛Retry Count","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"c4a7631a-a267-4cd4-ab67-913b50dfbdbc":["condition"],"31d271af-d549-438d-b692-b7db6ca08975":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6e5cd4e2-f9b9-4dbb-b8b0-672e3c9966cb"}},{"name":"flow_variable.current_try","label":"Flow Variables➛Current Try","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"abb6d4aa-9345-4268-a58b-a3375e673b92":["condition"],"c4a7631a-a267-4cd4-ab67-913b50dfbdbc":["condition"],"31d271af-d549-438d-b692-b7db6ca08975":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"3fef1f34-ff95-4e35-ab9a-925790b3ac31"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.__action_status__.message","label":"15 - Integration OMDB API➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"3def2321-c329-4d59-90b3-2f45b0374518":["integration_error_message-1"]},"attributes":{}},{"name":"flow_variable.retry_timeout","label":"Flow Variables➛Retry Timeout","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"cc3f566f-a021-4653-b608-bfd598cf5b6b":["seconds"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0ad49f43-b359-4b42-bd6c-4d08144afd5b"}},{"name":"cc3f566f-a021-4653-b608-bfd598cf5b6b.duration","label":"19 - Convert Seconds Into Duration➛Duration","reference_display":"Duration","type":"glide_duration","base_type":"glide_duration","usedInstances":{"b231d5b4-a755-4b82-8836-d55610114a2f":["timer_duration"]},"attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a95dff0f-6697-4279-b5c9-5385737e7609"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Response","label":"15 - Integration OMDB API➛Media➛Response","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"c515a66d-c8b4-4fe2-9c7d-31ad2d28c984":["condition"]},"attributes":{}},{"name":"fda02fce-88f1-4082-ae52-d85c2510d92c.record","label":"9 - Create Record➛Media Record","reference":"x_1593191_raas_media","reference_display":"Media","type":"reference","base_type":"reference","usedInstances":{"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["record"],"e0b2ee4e-f7fe-4b92-b70e-82153506abe3":["media"],"989885ac-98d3-44c7-89a4-7f5240d3be7d":["media"],"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["record"],"584dde3c-d424-4952-9488-245545326604":["media"],"eab0f63f-5cbf-48a8-91e0-35e19b545341":["media"],"6772f000-266f-4794-9dfa-9acd11bf1eb8":["record"],"f84488d4-bf87-46e3-aad9-00659926bb2f":["record"],"54cd2116-ce59-485a-ab52-f76b7bbb7121":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media","label":"15 - Integration OMDB API➛Media","reference_display":"Media","type":"object","base_type":"object","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["title","writers"]},"attributes":{"sourceId":"8e04190a-886f-4e21-8e0f-4dd9ce633821","uiTypeLabel":"Object","co_type_name":"FD04c27db063c796101d5d7d2f63d1f05e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"1dbb53c2-6d11-4582-bc3c-de49fe73c539","uiType":"object","uiUniqueId":"d6a0581e-458a-448c-88a9-07f13f47b288"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Actors","label":"15 - Integration OMDB API➛Media➛Actors","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e0b2ee4e-f7fe-4b92-b70e-82153506abe3":["actors"],"584dde3c-d424-4952-9488-245545326604":["actors"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Director","label":"15 - Integration OMDB API➛Media➛Director","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"989885ac-98d3-44c7-89a4-7f5240d3be7d":["directors"],"eab0f63f-5cbf-48a8-91e0-35e19b545341":["directors"]},"attributes":{}}]</label_cache>
         <master_snapshot>d0c75f4ac3cb92101f5afb377d01314d</master_snapshot>
         <master_snapshot_digest/>
         <name>Suggestion Lifecyle</name>
@@ -28,7 +28,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>961b430ac38b92101f5afb377d013103</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name>Suggestion Lifecyle</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
         <sys_update_name>sys_hub_flow_961b430ac38b92101f5afb377d013103</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 13:29:29</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:40:20</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -82,14 +82,14 @@
         <identifier>961b430ac38b92101f5afb377d013103</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-15 01:51:37</sys_created_on>
-        <sys_id>45427ceec30b12101f5afb377d013133</sys_id>
+        <sys_created_on>2025-01-15 13:40:20</sys_created_on>
+        <sys_id>2274dfeac34752101f5afb377d0131df</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 01:51:37</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:40:20</sys_updated_on>
         <trigger display_value="">20c75f4ac3cb92101f5afb377d0131c7</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=961b430ac38b92101f5afb377d013103^sys_idNOT IN45427ceec30b12101f5afb377d013133"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=961b430ac38b92101f5afb377d013103^sys_idNOT IN2274dfeac34752101f5afb377d0131df"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=961b430ac38b92101f5afb377d013103"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=961b430ac38b92101f5afb377d013103^sys_idNOT IN9e1b0b4ac38b92101f5afb377d013149"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -491,10 +491,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-14 00:37:35</sys_created_on>
         <sys_id>beb71f4ac3cb92101f5afb377d013189</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 13:29:28</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:40:16</sys_updated_on>
         <ui_id>eb2d399e-04a8-4a65-a5c9-d29656f24878</ui_id>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8lUJn2dDDcmPfghYBCrQN0AS5tIGwIpcxW4pUScqOa/jfu9TDNhIHLYocexOH2t2Z0ax2kWl903p3ay6dkw86Wn69jyOpA0bPu0hDjdEyYkZz6aXRZQfE0RpUGy7okUvXKNjeHRG2kopbHLo1YKnGo42WuydXfttgqaBCRYU33kr9QOWS00kkINIFS1mezfMsSbKLWVrN8yrNeA4IOb03Fr4byb352CHxi6zDPMLdOMlYHmilSRzho0fNkUYLUA7jqAbNwRu7PSAWgV9rdQRWUvtecQ2PTv6i3llRhBcFkkY22HE4loNVo0tGMrxuAsEe8VCp0UKj2lp/7nUEk1FAq/yJya2jftgE0oHFQEncrMzmyzjwSupO4HCpDAN1OIEnG6rWowsfBhXW1KisoWnInLKxZi27YuJSTx8UHaZCmQ0NDUmZAgvEp+QRTK8If9/Bd2BlUPGJ2lBxT7MCJ1nZpYraeUsS9p0t5c82EOoFDlLK3g16wTErG39Jc9Y4sN7HzyN5ksbdTmTiIoMkm7C3FU5mAnFSFdl8woXIs5QXc75Ip8SN1IEqnQeP+/23NklySuV3ZJ4S8CzSr9X2NfZiAYUo0qQ4vxez+bm9OLMRLy9D9odlCJ/vL3chSZL/y3C6DNKVfagHbd3wf96F+xD8foLrc8ORSUdEbgP2YfyLh4stBUCyU2hj7I8g4YjtfwNMkXdfDwYAAA==</values>
         <workflow_reference/>
@@ -517,10 +517,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-15 01:38:42</sys_created_on>
         <sys_id>bf4f642ec30b12101f5afb377d013107</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 13:29:28</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:40:16</sys_updated_on>
         <ui_id>8678d5bc-0c7d-42b0-b75b-2a59f1701dee</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -591,7 +591,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>suggestion_lifecyle</internal_name>
-        <label_cache>[{"name":"307becdf-5206-4256-902d-7635c7210f6a.record.type","label":"1 - Update Record➛Suggestion Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_1593191_raas_suggestion","column_name":"type","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Movie","used":false,"image":"","reference":false,"rawLabel":"Movie","selected":false,"missing":false,"value":"movie","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}},{"label":"Series","used":false,"image":"","reference":false,"rawLabel":"Series","selected":false,"missing":false,"value":"series","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}}],"usedInstances":{"fda02fce-88f1-4082-ae52-d85c2510d92c":["type"]}},{"name":"flow_variable.integration_error_message","label":"Flow Variables➛Integration Error Message","type":"string","base_type":"string","usedInstances":{"54cd2116-ce59-485a-ab52-f76b7bbb7121":["integration_error_message"],"01f6f309-6d1d-4eae-a587-cd52ef020513":["description"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b9a5aa7d-8106-423d-8ebd-06c6ed113f87"}},{"name":"d3401181-f563-4b2a-b31a-f8e61854ce87.genre_sys_id_list","label":"27 - Create / Retrive Genres➛Genre sys_id_list","reference_display":"Genre sys_id_list","type":"string","base_type":"string","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["genre"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e397f781-a045-4f9a-adbb-a7423ee72c04"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Production","label":"15 - Integration OMDB API➛Media➛Production","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["production"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Type","label":"15 - Integration OMDB API➛Media➛Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["type"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["type"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.imdbRating","label":"15 - Integration OMDB API➛Media➛imdbRating","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["imdb_rating"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Metascore","label":"15 - Integration OMDB API➛Media➛Metascore","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["metascore"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Poster","label":"15 - Integration OMDB API➛Media➛Poster","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["poster"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Awards","label":"15 - Integration OMDB API➛Media➛Awards","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["awards"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Country","label":"15 - Integration OMDB API➛Media➛Country","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["country"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Language","label":"15 - Integration OMDB API➛Media➛Language","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["language"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Plot","label":"15 - Integration OMDB API➛Media➛Plot","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["synopsis"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Writer","label":"15 - Integration OMDB API➛Media➛Writer","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["writers"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Rated","label":"15 - Integration OMDB API➛Media➛Rated","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["category"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Year","label":"15 - Integration OMDB API➛Media➛Year","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["release_year"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Title","label":"15 - Integration OMDB API➛Media➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["title"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Genre","label":"15 - Integration OMDB API➛Media➛Genre","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"d3401181-f563-4b2a-b31a-f8e61854ce87":["genres"]},"attributes":{}},{"name":"flow_variable.active","label":"Flow Variables➛Active","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"7f6e586d-4044-4657-866a-703ff0ddc982":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a2a34018-8a48-4ee8-99ef-591be1bc2298"}},{"name":"Created_1.current.release_year","label":"Trigger - Record Created➛Suggestion Record➛Release Year","reference":"","reference_display":"Release Year","type":"string","base_type":"string","parent_table_name":"x_1593191_raas_suggestion","column_name":"release_year","usedInstances":{"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f":["year"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["release_year"],"fda02fce-88f1-4082-ae52-d85c2510d92c":["release_year"]}},{"name":"Created_1.current.title","label":"Trigger - Record Created➛Suggestion Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1593191_raas_suggestion","column_name":"title","usedInstances":{"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f":["title"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["title"],"fda02fce-88f1-4082-ae52-d85c2510d92c":["title"]}},{"name":"Created_1.current.type","label":"Trigger - Record Created➛Suggestion Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_1593191_raas_suggestion","column_name":"type","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Movie","used":false,"image":"","reference":false,"rawLabel":"Movie","selected":false,"missing":false,"value":"movie","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}},{"label":"Series","used":false,"image":"","reference":false,"rawLabel":"Series","selected":false,"missing":false,"value":"series","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}}],"usedInstances":{"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f":["type"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["type"],"fda02fce-88f1-4082-ae52-d85c2510d92c":["type"]}},{"name":"307becdf-5206-4256-902d-7635c7210f6a.record.title","label":"1 - Update Record➛Suggestion Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1593191_raas_suggestion","column_name":"title","usedInstances":{}},{"name":"f2f82a02-c7be-4fee-b526-dff321d56d91.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"eb2d399e-04a8-4a65-a5c9-d29656f24878":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f2f82a02-c7be-4fee-b526-dff321d56d91.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{},"attributes":{"uiType":"object","co_type_name":"FD31ebece6550b12102363c0007ab30f0d","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Suggestion Record","reference":"x_1593191_raas_suggestion","reference_display":"Suggestion","type":"reference","base_type":"reference","usedInstances":{"307becdf-5206-4256-902d-7635c7210f6a":["record"],"f2f82a02-c7be-4fee-b526-dff321d56d91":["record"],"7eedf6bc-631e-4b01-a02b-e48b594accc2":["conditions"],"1009b716-b287-4a16-b947-e4d4080f3fc7":["record"],"a745ecc9-7d47-4a38-b1db-4d12618a2914":["record"],"e609a0e5-ae2e-43e9-82c4-a5dd33ce8493":["record"],"b9a433e9-b716-4d68-97ce-7264feba0589":["record"],"9d9dc285-23cd-4b66-b1bb-e334ff7d1d7d":["record"],"45c71d35-e14a-4f79-aca9-2c2dc813dca5":["record"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["title"],"4195906b-8ead-482c-a481-7aabb39bf601":["record"],"1aa0c59a-df60-4bbc-9c7f-8b0ce482d224":["record"]},"attributes":{}},{"name":"{{static.8c19fd2ec33a12101f5afb377d0131d8}}","label":"RaaS Admin","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"f2f82a02-c7be-4fee-b526-dff321d56d91":["approval_conditions"]}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.__action_status__","label":"15 - Integration OMDB API➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{},"attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"a167a0d3-169d-4a3c-95e9-7299ad90b6f7"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.__action_status__.code","label":"15 - Integration OMDB API➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"1f8f1c3e-b263-4927-a54c-aebc3580249d":["condition"]},"attributes":{}},{"name":"flow_variable.integration_successful","label":"Flow Variables➛Integration Successful","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"e255efbb-f008-4bfc-8a1b-e9e9ab051376":["condition"],"abb6d4aa-9345-4268-a58b-a3375e673b92":["condition"],"c4a7631a-a267-4cd4-ab67-913b50dfbdbc":["condition"],"c619d7ab-1243-4a7c-853a-3396c476f495":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dbe6ad19-f4d7-45b0-9973-57ee19d96841"}},{"name":"flow_variable.curreny_try","label":"Flow Variables➛Curreny Try","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ba67f2d2-ae03-4d8f-9ca1-5f1d25838ec5"}},{"name":"flow_variable.retry_count","label":"Flow Variables➛Retry Count","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"c4a7631a-a267-4cd4-ab67-913b50dfbdbc":["condition"],"31d271af-d549-438d-b692-b7db6ca08975":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6e5cd4e2-f9b9-4dbb-b8b0-672e3c9966cb"}},{"name":"flow_variable.current_try","label":"Flow Variables➛Current Try","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"abb6d4aa-9345-4268-a58b-a3375e673b92":["condition"],"c4a7631a-a267-4cd4-ab67-913b50dfbdbc":["condition"],"31d271af-d549-438d-b692-b7db6ca08975":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"3fef1f34-ff95-4e35-ab9a-925790b3ac31"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.__action_status__.message","label":"15 - Integration OMDB API➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"3def2321-c329-4d59-90b3-2f45b0374518":["integration_error_message-1"]},"attributes":{}},{"name":"flow_variable.retry_timeout","label":"Flow Variables➛Retry Timeout","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"cc3f566f-a021-4653-b608-bfd598cf5b6b":["seconds"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0ad49f43-b359-4b42-bd6c-4d08144afd5b"}},{"name":"cc3f566f-a021-4653-b608-bfd598cf5b6b.duration","label":"19 - Convert Seconds Into Duration➛Duration","reference_display":"Duration","type":"glide_duration","base_type":"glide_duration","usedInstances":{"b231d5b4-a755-4b82-8836-d55610114a2f":["timer_duration"]},"attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a95dff0f-6697-4279-b5c9-5385737e7609"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Response","label":"15 - Integration OMDB API➛Media➛Response","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"c515a66d-c8b4-4fe2-9c7d-31ad2d28c984":["condition"]},"attributes":{}},{"name":"fda02fce-88f1-4082-ae52-d85c2510d92c.record","label":"9 - Create Record➛Media Record","reference":"x_1593191_raas_media","reference_display":"Media","type":"reference","base_type":"reference","usedInstances":{"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["record"],"e0b2ee4e-f7fe-4b92-b70e-82153506abe3":["media"],"989885ac-98d3-44c7-89a4-7f5240d3be7d":["media"],"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["record"],"584dde3c-d424-4952-9488-245545326604":["media"],"eab0f63f-5cbf-48a8-91e0-35e19b545341":["media"],"6772f000-266f-4794-9dfa-9acd11bf1eb8":["record"],"f84488d4-bf87-46e3-aad9-00659926bb2f":["record"],"54cd2116-ce59-485a-ab52-f76b7bbb7121":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media","label":"15 - Integration OMDB API➛Media","reference_display":"Media","type":"object","base_type":"object","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["title","writers"]},"attributes":{"sourceId":"8e04190a-886f-4e21-8e0f-4dd9ce633821","uiTypeLabel":"Object","co_type_name":"FD04c27db063c796101d5d7d2f63d1f05e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"1dbb53c2-6d11-4582-bc3c-de49fe73c539","uiType":"object","uiUniqueId":"d6a0581e-458a-448c-88a9-07f13f47b288"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Actors","label":"15 - Integration OMDB API➛Media➛Actors","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e0b2ee4e-f7fe-4b92-b70e-82153506abe3":["actors"],"584dde3c-d424-4952-9488-245545326604":["actors"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Director","label":"15 - Integration OMDB API➛Media➛Director","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"989885ac-98d3-44c7-89a4-7f5240d3be7d":["directors"],"eab0f63f-5cbf-48a8-91e0-35e19b545341":["directors"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"307becdf-5206-4256-902d-7635c7210f6a.record.type","label":"1 - Update Record➛Suggestion Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_1593191_raas_suggestion","column_name":"type","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Movie","used":false,"image":"","reference":false,"rawLabel":"Movie","selected":false,"missing":false,"value":"movie","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}},{"label":"Series","used":false,"image":"","reference":false,"rawLabel":"Series","selected":false,"missing":false,"value":"series","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}}],"usedInstances":{"fda02fce-88f1-4082-ae52-d85c2510d92c":["type"]}},{"name":"flow_variable.integration_error_message","label":"Flow Variables➛Integration Error Message","type":"string","base_type":"string","usedInstances":{"54cd2116-ce59-485a-ab52-f76b7bbb7121":["integration_error_message"],"01f6f309-6d1d-4eae-a587-cd52ef020513":["description"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b9a5aa7d-8106-423d-8ebd-06c6ed113f87"}},{"name":"d3401181-f563-4b2a-b31a-f8e61854ce87.genre_sys_id_list","label":"27 - Create / Retrive Genres➛Genre sys_id_list","reference_display":"Genre sys_id_list","type":"string","base_type":"string","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["genre"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e397f781-a045-4f9a-adbb-a7423ee72c04"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Production","label":"15 - Integration OMDB API➛Media➛Production","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["production"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Type","label":"15 - Integration OMDB API➛Media➛Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["type"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["type"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.imdbRating","label":"15 - Integration OMDB API➛Media➛imdbRating","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["imdb_rating"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Metascore","label":"15 - Integration OMDB API➛Media➛Metascore","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["metascore"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Poster","label":"15 - Integration OMDB API➛Media➛Poster","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["poster"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Awards","label":"15 - Integration OMDB API➛Media➛Awards","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["awards"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Country","label":"15 - Integration OMDB API➛Media➛Country","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["country"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Language","label":"15 - Integration OMDB API➛Media➛Language","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["language"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Plot","label":"15 - Integration OMDB API➛Media➛Plot","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["synopsis"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Writer","label":"15 - Integration OMDB API➛Media➛Writer","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["writers"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Rated","label":"15 - Integration OMDB API➛Media➛Rated","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["category"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Year","label":"15 - Integration OMDB API➛Media➛Year","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["release_year"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Title","label":"15 - Integration OMDB API➛Media➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["title"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Genre","label":"15 - Integration OMDB API➛Media➛Genre","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"d3401181-f563-4b2a-b31a-f8e61854ce87":["genres"]},"attributes":{}},{"name":"flow_variable.active","label":"Flow Variables➛Active","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"7f6e586d-4044-4657-866a-703ff0ddc982":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a2a34018-8a48-4ee8-99ef-591be1bc2298"}},{"name":"Created_1.current.release_year","label":"Trigger - Record Created➛Suggestion Record➛Release Year","reference":"","reference_display":"Release Year","type":"string","base_type":"string","parent_table_name":"x_1593191_raas_suggestion","column_name":"release_year","usedInstances":{"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f":["year"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["release_year"],"fda02fce-88f1-4082-ae52-d85c2510d92c":["release_year"]}},{"name":"Created_1.current.title","label":"Trigger - Record Created➛Suggestion Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1593191_raas_suggestion","column_name":"title","usedInstances":{"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f":["title"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["title"],"fda02fce-88f1-4082-ae52-d85c2510d92c":["title"]}},{"name":"Created_1.current.type","label":"Trigger - Record Created➛Suggestion Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_1593191_raas_suggestion","column_name":"type","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Movie","used":false,"image":"","reference":false,"rawLabel":"Movie","selected":false,"missing":false,"value":"movie","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}},{"label":"Series","used":false,"image":"","reference":false,"rawLabel":"Series","selected":false,"missing":false,"value":"series","parameters":{"name":"x_1593191_raas_suggestion","dependent_values":[""]}}],"usedInstances":{"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f":["type"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["type"],"fda02fce-88f1-4082-ae52-d85c2510d92c":["type"]}},{"name":"307becdf-5206-4256-902d-7635c7210f6a.record.title","label":"1 - Update Record➛Suggestion Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1593191_raas_suggestion","column_name":"title","usedInstances":{}},{"name":"f2f82a02-c7be-4fee-b526-dff321d56d91.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"eb2d399e-04a8-4a65-a5c9-d29656f24878":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f2f82a02-c7be-4fee-b526-dff321d56d91.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{},"attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Suggestion Record","reference":"x_1593191_raas_suggestion","reference_display":"Suggestion","type":"reference","base_type":"reference","usedInstances":{"307becdf-5206-4256-902d-7635c7210f6a":["record"],"f2f82a02-c7be-4fee-b526-dff321d56d91":["record"],"7eedf6bc-631e-4b01-a02b-e48b594accc2":["conditions"],"1009b716-b287-4a16-b947-e4d4080f3fc7":["record"],"a745ecc9-7d47-4a38-b1db-4d12618a2914":["record"],"e609a0e5-ae2e-43e9-82c4-a5dd33ce8493":["record"],"b9a433e9-b716-4d68-97ce-7264feba0589":["record"],"9d9dc285-23cd-4b66-b1bb-e334ff7d1d7d":["record"],"45c71d35-e14a-4f79-aca9-2c2dc813dca5":["record"],"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["title"],"4195906b-8ead-482c-a481-7aabb39bf601":["record"],"1aa0c59a-df60-4bbc-9c7f-8b0ce482d224":["record"]},"attributes":{}},{"name":"{{static.8c19fd2ec33a12101f5afb377d0131d8}}","label":"RaaS Admin","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"f2f82a02-c7be-4fee-b526-dff321d56d91":["approval_conditions"]}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.__action_status__","label":"15 - Integration OMDB API➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{},"attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"a167a0d3-169d-4a3c-95e9-7299ad90b6f7"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.__action_status__.code","label":"15 - Integration OMDB API➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"1f8f1c3e-b263-4927-a54c-aebc3580249d":["condition"]},"attributes":{}},{"name":"flow_variable.integration_successful","label":"Flow Variables➛Integration Successful","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"e255efbb-f008-4bfc-8a1b-e9e9ab051376":["condition"],"abb6d4aa-9345-4268-a58b-a3375e673b92":["condition"],"c4a7631a-a267-4cd4-ab67-913b50dfbdbc":["condition"],"c619d7ab-1243-4a7c-853a-3396c476f495":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dbe6ad19-f4d7-45b0-9973-57ee19d96841"}},{"name":"flow_variable.curreny_try","label":"Flow Variables➛Curreny Try","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ba67f2d2-ae03-4d8f-9ca1-5f1d25838ec5"}},{"name":"flow_variable.retry_count","label":"Flow Variables➛Retry Count","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"c4a7631a-a267-4cd4-ab67-913b50dfbdbc":["condition"],"31d271af-d549-438d-b692-b7db6ca08975":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6e5cd4e2-f9b9-4dbb-b8b0-672e3c9966cb"}},{"name":"flow_variable.current_try","label":"Flow Variables➛Current Try","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"abb6d4aa-9345-4268-a58b-a3375e673b92":["condition"],"c4a7631a-a267-4cd4-ab67-913b50dfbdbc":["condition"],"31d271af-d549-438d-b692-b7db6ca08975":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"3fef1f34-ff95-4e35-ab9a-925790b3ac31"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.__action_status__.message","label":"15 - Integration OMDB API➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"3def2321-c329-4d59-90b3-2f45b0374518":["integration_error_message-1"]},"attributes":{}},{"name":"flow_variable.retry_timeout","label":"Flow Variables➛Retry Timeout","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"cc3f566f-a021-4653-b608-bfd598cf5b6b":["seconds"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0ad49f43-b359-4b42-bd6c-4d08144afd5b"}},{"name":"cc3f566f-a021-4653-b608-bfd598cf5b6b.duration","label":"19 - Convert Seconds Into Duration➛Duration","reference_display":"Duration","type":"glide_duration","base_type":"glide_duration","usedInstances":{"b231d5b4-a755-4b82-8836-d55610114a2f":["timer_duration"]},"attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a95dff0f-6697-4279-b5c9-5385737e7609"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Response","label":"15 - Integration OMDB API➛Media➛Response","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"c515a66d-c8b4-4fe2-9c7d-31ad2d28c984":["condition"]},"attributes":{}},{"name":"fda02fce-88f1-4082-ae52-d85c2510d92c.record","label":"9 - Create Record➛Media Record","reference":"x_1593191_raas_media","reference_display":"Media","type":"reference","base_type":"reference","usedInstances":{"5bcfcf79-c8c7-46b4-ae17-bbb8ab7b837e":["record"],"e0b2ee4e-f7fe-4b92-b70e-82153506abe3":["media"],"989885ac-98d3-44c7-89a4-7f5240d3be7d":["media"],"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["record"],"584dde3c-d424-4952-9488-245545326604":["media"],"eab0f63f-5cbf-48a8-91e0-35e19b545341":["media"],"6772f000-266f-4794-9dfa-9acd11bf1eb8":["record"],"f84488d4-bf87-46e3-aad9-00659926bb2f":["record"],"54cd2116-ce59-485a-ab52-f76b7bbb7121":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media","label":"15 - Integration OMDB API➛Media","reference_display":"Media","type":"object","base_type":"object","usedInstances":{"e1ccc2a2-200d-4b11-974f-8cf496e6f36f":["title","writers"]},"attributes":{"sourceId":"8e04190a-886f-4e21-8e0f-4dd9ce633821","uiTypeLabel":"Object","co_type_name":"FD04c27db063c796101d5d7d2f63d1f05e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"1dbb53c2-6d11-4582-bc3c-de49fe73c539","uiType":"object","uiUniqueId":"d6a0581e-458a-448c-88a9-07f13f47b288"}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Actors","label":"15 - Integration OMDB API➛Media➛Actors","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e0b2ee4e-f7fe-4b92-b70e-82153506abe3":["actors"],"584dde3c-d424-4952-9488-245545326604":["actors"]},"attributes":{}},{"name":"d1e9bf41-f751-472d-b8ec-8908ee0f9c2f.media.Director","label":"15 - Integration OMDB API➛Media➛Director","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"989885ac-98d3-44c7-89a4-7f5240d3be7d":["directors"],"eab0f63f-5cbf-48a8-91e0-35e19b545341":["directors"]},"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Suggestion Lifecyle</name>
         <natlang/>
@@ -608,7 +608,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d0c75f4ac3cb92101f5afb377d01314d</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -616,7 +616,7 @@
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 01:51:36</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:40:19</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -700,14 +700,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-14 00:37:41</sys_created_on>
         <sys_id>98c75f4ac3cb92101f5afb377d01314f</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 01:51:36</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:40:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -784,14 +784,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-14 00:37:42</sys_created_on>
         <sys_id>d4c75f4ac3cb92101f5afb377d01315e</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 01:51:36</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:40:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1023,10 +1023,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-15 01:51:36</sys_created_on>
         <sys_id>b0423ceec30b12101f5afb377d0131db</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 01:51:36</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:40:19</sys_updated_on>
         <ui_id>8678d5bc-0c7d-42b0-b75b-2a59f1701dee</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -1049,514 +1049,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-14 00:37:42</sys_created_on>
         <sys_id>dcc75f4ac3cb92101f5afb377d013182</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 01:51:36</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:40:19</sys_updated_on>
         <ui_id>eb2d399e-04a8-4a65-a5c9-d29656f24878</ui_id>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnWdDDcmPfAgcBCqQN0AS5tIGw4sNmS5GqSNlxBf97l5IsG4mLNmiOvYlD7nJmuAO1xDSuapy9N5fWypUmiy+PAZHaY/jdEg0lJwtCjWbSSaPzDgjIBlTjN/CTSVsp2D0cEbqWitV86FZBjTWO12TRPtuSDAtEBCKe05imySxNoii5mMbFLC3ihKXAIcWGCgqu8OjyQOPdTYcEv+XndpXHraulXg3rm6HL3QE0NfOs4igg/MlxzTjyEaAsD0gJmoEz9W5Eag7sVqsjsJba9YJLeLLyJ16YZJk/KDhKpIMb4zIfnOphcQUOkEpDXVOPxhlJue3NYVxAo9zyFOsP3FZeal/ioFCHaqOaUn/qHSFjg5OHaSyS4JVX6qkPOsTd2mw/H1heS925MmwqQ0GNK3DoXdE4z6clXPESG+UlVBU6mle12ciuGLmU4UrhIhTKbPFSP10hUE88RGMhvEb8qoMfoJZexUdsg8U9zQKspHk3idgObeJkHxC7s0sF1h5Forv5j8ZT7CUP4vLeH19Ca1m5S7x5wwcd++DlYJ/MdNuKRFwkECUT+r7gk6ngfFJkyWzChEiTmGUzNo9DZIt6QeXWgeP7/dcmilKc7W+cOhykF8F4q7avS9ccMpHFUXY+XdPZuXSdydUrI5X8IVL+Pf8yUVEU/Y/UP0dK2rwPwqCtu/wNE/Xo49PfOXpNpUVq9x77cPij+I0dDpekp9DW1N+9qCO2/wVDWGHemwYAAA==</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=d0c75f4ac3cb92101f5afb377d01314d"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=d0c75f4ac3cb92101f5afb377d01314d^sys_idNOT IN1698e7cec30f92101f5afb377d0131b7,1698e7cec30f92101f5afb377d0131c2,1e98e7cec30f92101f5afb377d0131e1,5a98e7cec30f92101f5afb377d0131c5,9a98e7cec30f92101f5afb377d0131bb,de98e7cec30f92101f5afb377d0131be"/>
-    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=a2a34018-8a48-4ee8-99ef-591be1bc2298</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>active</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">boolean</internal_type>
-        <label>Active</label>
-        <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <model display_value="Suggestion Lifecyle">d0c75f4ac3cb92101f5afb377d01314d</model>
-        <model_id>d0c75f4ac3cb92101f5afb377d01314d</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_variable_d0c75f4ac3cb92101f5afb377d01314d</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_variable</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-14 01:51:17</sys_created_on>
-        <sys_id>1698e7cec30f92101f5afb377d0131b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 01:51:17</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_variable>
-    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=dbe6ad19-f4d7-45b0-9973-57ee19d96841</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>integration_successful</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">boolean</internal_type>
-        <label>Integration Successful</label>
-        <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <model display_value="Suggestion Lifecyle">d0c75f4ac3cb92101f5afb377d01314d</model>
-        <model_id>d0c75f4ac3cb92101f5afb377d01314d</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_variable_d0c75f4ac3cb92101f5afb377d01314d</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_variable</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-14 01:51:17</sys_created_on>
-        <sys_id>1698e7cec30f92101f5afb377d0131c2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 01:51:17</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_variable>
-    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b9a5aa7d-8106-423d-8ebd-06c6ed113f87</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>integration_error_message</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Integration Error Message</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Suggestion Lifecyle">d0c75f4ac3cb92101f5afb377d01314d</model>
-        <model_id>d0c75f4ac3cb92101f5afb377d01314d</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_variable_d0c75f4ac3cb92101f5afb377d01314d</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_variable</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-14 01:51:17</sys_created_on>
-        <sys_id>1e98e7cec30f92101f5afb377d0131e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 01:51:17</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_variable>
-    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=0ad49f43-b359-4b42-bd6c-4d08144afd5b</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>retry_timeout</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="Integer">integer</internal_type>
-        <label>Retry Timeout</label>
-        <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <model display_value="Suggestion Lifecyle">d0c75f4ac3cb92101f5afb377d01314d</model>
-        <model_id>d0c75f4ac3cb92101f5afb377d01314d</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_variable_d0c75f4ac3cb92101f5afb377d01314d</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_variable</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-14 01:51:17</sys_created_on>
-        <sys_id>5a98e7cec30f92101f5afb377d0131c5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 01:51:17</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_variable>
-    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=3fef1f34-ff95-4e35-ab9a-925790b3ac31</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>current_try</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="Integer">integer</internal_type>
-        <label>Current Try</label>
-        <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <model display_value="Suggestion Lifecyle">d0c75f4ac3cb92101f5afb377d01314d</model>
-        <model_id>d0c75f4ac3cb92101f5afb377d01314d</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_variable_d0c75f4ac3cb92101f5afb377d01314d</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_variable</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-14 01:51:17</sys_created_on>
-        <sys_id>9a98e7cec30f92101f5afb377d0131bb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 01:51:17</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_variable>
-    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=6e5cd4e2-f9b9-4dbb-b8b0-672e3c9966cb</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>retry_count</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="Integer">integer</internal_type>
-        <label>Retry Count</label>
-        <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <model display_value="Suggestion Lifecyle">d0c75f4ac3cb92101f5afb377d01314d</model>
-        <model_id>d0c75f4ac3cb92101f5afb377d01314d</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_variable_d0c75f4ac3cb92101f5afb377d01314d</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_variable</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-14 01:51:17</sys_created_on>
-        <sys_id>de98e7cec30f92101f5afb377d0131be</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 01:51:17</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d0c75f4ac3cb92101f5afb377d01314d"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d0c75f4ac3cb92101f5afb377d01314d^sys_idNOT IN5cc75f4ac3cb92101f5afb377d01315b,d8c75f4ac3cb92101f5afb377d01317b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
@@ -1617,17 +1119,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"acc75f4ac3cb92101f5afb377d0131c8","name":"plan","plan_signature":null}}</plan>
         <plan_id>961b430ac38b92101f5afb377d013103</plan_id>
-        <snapshot>073eb022c38b12101f5afb377d0131c9</snapshot>
+        <snapshot>d0c75f4ac3cb92101f5afb377d01314d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-14 00:37:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>acc75f4ac3cb92101f5afb377d0131c8</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 01:23:49</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:40:20</sys_updated_on>
         <trigger display_value="">20c75f4ac3cb92101f5afb377d0131c7</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=961b430ac38b92101f5afb377d013103"/>
