@@ -6,7 +6,7 @@
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description/>
+        <description>Allow delete for records in x_1593191_raas_m2m_director_media, for users with role x_1593191_raas.administrator.</description>
         <local_or_existing>Local</local_or_existing>
         <name>x_1593191_raas_m2m_director_media</name>
         <operation display_value="delete">delete</operation>
@@ -14,16 +14,16 @@
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-14 19:56:58</sys_created_on>
-        <sys_id>ce11ab56c38312101f5afb377d013137</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2025-01-15 11:40:47</sys_created_on>
+        <sys_id>9319b6aac34352101f5afb377d01310e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>x_1593191_raas_m2m_director_media</sys_name>
         <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
-        <sys_update_name>sys_security_acl_ce11ab56c38312101f5afb377d013137</sys_update_name>
+        <sys_update_name>sys_security_acl_9319b6aac34352101f5afb377d01310e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 19:56:58</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:10:23</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

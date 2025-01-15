@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to table="x_1593191_raas_m2m_actor_media">x_1593191_raas_media.state=1^EQ<item display_value="Draft" endquery="false" field="x_1593191_raas_media.state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </applies_to>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1593191_raas_m2m_actor_media</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 19:59:01</sys_created_on>
+        <sys_id>fb816796c38312101f5afb377d0131b7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_1593191_raas_m2m_actor_media</sys_name>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_update_name>sys_security_acl_fb816796c38312101f5afb377d0131b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 03:15:08</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</application>
+        <file_path/>
+        <instance_id>b49b406edb92f9d04162684e1396196b</instance_id>
+        <instance_name>dev206495</instance_name>
+        <name>sys_security_acl_fb816796c38312101f5afb377d0131b7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to table="x_1593191_raas_m2m_actor_media">x_1593191_raas_media.state=1^EQ<item display_value="Draft" endquery="false" field="x_1593191_raas_media.state" goto="false" newquery="false" operator="=" or="false" value="1"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></applies_to><condition/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_1593191_raas_m2m_actor_media</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 19:59:01</sys_created_on><sys_id>fb816796c38312101f5afb377d0131b7</sys_id><sys_mod_count>7</sys_mod_count><sys_name>x_1593191_raas_m2m_actor_media</sys_name><sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package><sys_policy/><sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope><sys_update_name>sys_security_acl_fb816796c38312101f5afb377d0131b7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-15 03:15:08</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>821147924</payload_hash>
+        <record_name>x_1593191_raas_m2m_actor_media</record_name>
+        <reverted_from/>
+        <source>72baf07bc33252101f5afb377d013166</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 03:15:08</sys_created_on>
+        <sys_id>68654daac38b12101f5afb377d01310d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19467f52d970000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 03:15:08</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>ec654daaf18b12103ef5832edbe9f20c</update_guid>
+        <update_guid_history>ec654daaf18b12103ef5832edbe9f20c:821147924,413541aae58b12101ddd81036732b909:1590086221,d5d401aa418b12100e97e8c24e9c62cd:2141809762,36538de6688b1210ad3fcea3f73e1a86:-28136166,4e9209a6308b12106c6e82465a51de79:2141809762,3e21c526698b1210b13ca3b9b063c0af:-1039795991,f68d7cae634b1210be6756aa17510c2d:2141809762,ff8167964f8312108c524a7aa324cab9:-1039795991</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 04:09:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>6258464d2afe46d0971b3340dc121061</sys_id>
+        <sys_metadata>fb816796c38312101f5afb377d0131b7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593191_raas_m2m_actor_media</sys_name>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_parent display_value="x_1593191_raas_m2m_actor_media">899f763ec33292101f5afb377d0131ea</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_scope_delete display_value="">09fba108fcf048ec80a4aa10235a4584</sys_scope_delete>
+        <sys_update_name>sys_security_acl_fb816796c38312101f5afb377d0131b7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_fb816796c38312101f5afb377d0131b7">68654daac38b12101f5afb377d01310d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 04:09:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
