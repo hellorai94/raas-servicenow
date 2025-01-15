@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Allow list_edit for records in x_1593191_raas_m2m_director_media, if the ACL script returns true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1593191_raas_m2m_director_media</name>
+        <operation display_value="list_edit">54f535270a0a0b8c007c67009ab2bdc0</operation>
+        <script><![CDATA[// Verifica se tá visualizando a lista, se tiver, não pode editar
+if (gs.getSession().getParameter("sysparm_view") == "list") {
+	answer = false;
+} else {
+	answer = true;
+}
+]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 19:13:38</sys_created_on>
+        <sys_id>4b27571ac34312101f5afb377d01312f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1593191_raas_m2m_director_media</sys_name>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_update_name>sys_security_acl_4b27571ac34312101f5afb377d01312f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:14:59</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="DELETE">
+        <id>4b27571ac34312101f5afb377d01312f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 19:14:59</sys_created_on>
+        <sys_id>47775f1ac34312101f5afb377d013120</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:14:59</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</application>
+        <file_path/>
+        <instance_id>b49b406edb92f9d04162684e1396196b</instance_id>
+        <instance_name>dev206495</instance_name>
+        <name>sys_security_acl_4b27571ac34312101f5afb377d01312f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Allow list_edit for records in x_1593191_raas_m2m_director_media, if the ACL script returns true.&lt;/description&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_1593191_raas_m2m_director_media&lt;/name&gt;&lt;operation display_value="list_edit"&gt;54f535270a0a0b8c007c67009ab2bdc0&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[// Verifica se tá visualizando a lista, se tiver, não pode editar
+if (gs.getSession().getParameter("sysparm_view") == "list") {
+	answer = false;
+} else {
+	answer = true;
+}
+]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-14 19:13:38&lt;/sys_created_on&gt;&lt;sys_id&gt;4b27571ac34312101f5afb377d01312f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1593191_raas_m2m_director_media&lt;/sys_name&gt;&lt;sys_package display_value="RaaS - Raissa" source="x_1593191_raas"&gt;b476f9aac33a12101f5afb377d01311d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RaaS - Raissa"&gt;b476f9aac33a12101f5afb377d01311d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_4b27571ac34312101f5afb377d01312f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-14 19:14:59&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;4b27571ac34312101f5afb377d01312f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-14 19:14:59&lt;/sys_created_on&gt;&lt;sys_id&gt;47775f1ac34312101f5afb377d013120&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-14 19:14:59&lt;/sys_updated_on&gt;&lt;table&gt;sys_security_acl&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1676559773</payload_hash>
+        <record_name>x_1593191_raas_m2m_director_media</record_name>
+        <reverted_from/>
+        <source>72baf07bc33252101f5afb377d013166</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 19:15:00</sys_created_on>
+        <sys_id>07775f1ac34312101f5afb377d01312d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194663d98280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:15:00</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>8b775f1a75431210bd1156df4e63852c</update_guid>
+        <update_guid_history>8b775f1a75431210bd1156df4e63852c:-1676559773,cf27571a354312109eee201263ad1c31:-1572777443</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 19:24:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0b680608dc2640e8801ca8f3e3547190</sys_id>
+        <sys_metadata>4b27571ac34312101f5afb377d01312f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593191_raas_m2m_director_media</sys_name>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_parent display_value="x_1593191_raas_m2m_director_media">48ffba7ec33292101f5afb377d013106</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_scope_delete display_value="">09fba108fcf048ec80a4aa10235a4584</sys_scope_delete>
+        <sys_update_name>sys_security_acl_4b27571ac34312101f5afb377d01312f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_4b27571ac34312101f5afb377d01312f">07775f1ac34312101f5afb377d01312d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:24:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
