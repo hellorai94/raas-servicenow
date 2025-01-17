@@ -2,6 +2,7 @@
     <element db_object_id="170aaaf2c3fe52101f5afb377d01318a" extends="task" label="Suggestion" max_length="40" name="x_1593191_raas_suggestion" type="collection">
         <element label="Reproval Reason" max_length="4" name="reproval_reason" type="string"/>
         <element label="Title" max_length="250" name="title" type="string"/>
+        <element label="URL" max_length="1024" name="url" type="url"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Episode" sequence="2" value="episode"/>
@@ -10,6 +11,12 @@
             </choice>
         </element>
         <element label="Release Year" max_length="4" name="release_year" type="string"/>
+        <element choice="1" label="Is this media duplicated?" max_length="40" name="media_duplicate" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="200" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="100" value="Yes"/>
+            </choice>
+        </element>
         <element label="Media" max_length="32" name="media" reference="x_1593191_raas_media" type="reference"/>
     </element>
 </database>

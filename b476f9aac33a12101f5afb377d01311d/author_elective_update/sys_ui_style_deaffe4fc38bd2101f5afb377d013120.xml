@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="DELETE">
+        <alt/>
+        <element>reproval_reason</element>
+        <name>x_1593191_raas_suggestion</name>
+        <style>background-color:Red;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 01:26:25</sys_created_on>
+        <sys_id>deaffe4fc38bd2101f5afb377d013120</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593191_raas_suggestion</sys_name>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_update_name>sys_ui_style_deaffe4fc38bd2101f5afb377d013120</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 01:26:25</sys_updated_on>
+        <themed_style/>
+        <value/>
+    </sys_ui_style>
+    <sys_translated_text action="DELETE" query="documentkey=deaffe4fc38bd2101f5afb377d013120"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</application>
+        <file_path/>
+        <instance_id>b49b406edb92f9d04162684e1396196b</instance_id>
+        <instance_name>dev206495</instance_name>
+        <name>sys_ui_style_deaffe4fc38bd2101f5afb377d013120</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>reproval_reason</element><name>x_1593191_raas_suggestion</name><style>background-color:Red;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-17 01:26:25</sys_created_on><sys_id>deaffe4fc38bd2101f5afb377d013120</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1593191_raas_suggestion</sys_name><sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package><sys_policy/><sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope><sys_update_name>sys_ui_style_deaffe4fc38bd2101f5afb377d013120</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-17 01:26:25</sys_updated_on><themed_style/><value/></sys_ui_style><sys_translated_text action="delete_multiple" query="documentkey=deaffe4fc38bd2101f5afb377d013120"/></record_update>]]></payload>
+        <payload_hash>1600573381</payload_hash>
+        <record_name>x_1593191_raas_suggestion</record_name>
+        <reverted_from/>
+        <source>72baf07bc33252101f5afb377d013166</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 01:26:25</sys_created_on>
+        <sys_id>9baff28fc38bd2101f5afb377d013121</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19471de5ab40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 01:26:25</sys_updated_on>
+        <type>Style</type>
+        <update_guid>9faff28f088bd21065d8828d0e828120</update_guid>
+        <update_guid_history>9faff28f088bd21065d8828d0e828120:1600573381</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 01:27:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_style">sys_ui_style</sys_db_object>
+        <sys_id>000bfd0d82f74d879befa276a9d36da1</sys_id>
+        <sys_metadata>deaffe4fc38bd2101f5afb377d013120</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593191_raas_suggestion</sys_name>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_parent display_value="Suggestion">170aaaf2c3fe52101f5afb377d01318a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_scope_delete display_value="">09fba108fcf048ec80a4aa10235a4584</sys_scope_delete>
+        <sys_update_name>sys_ui_style_deaffe4fc38bd2101f5afb377d013120</sys_update_name>
+        <sys_update_version display_value="sys_ui_style_deaffe4fc38bd2101f5afb377d013120">9baff28fc38bd2101f5afb377d013121</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 01:27:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
