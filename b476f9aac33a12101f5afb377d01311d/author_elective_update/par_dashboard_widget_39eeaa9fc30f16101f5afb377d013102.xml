@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">565a2a1bc30f16101f5afb377d0131f1</canvas>
+        <component display_value="Line">18ac962264404bcc0039359d184b15f3</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"line","newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Review","sourceType":"table","tableOrViewName":"x_1593191_raas_review","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE1OTMxOTFfcmFhc19yZXZpZXcxNzM3MTM5Nzg2OTMw","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"Review Per Day","headingLevel":2,"showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4XzE1OTMxOTFfcmFhc19yZXZpZXcxNzM3MTM5Nzg2OTMw","id":"ZEdGaWJHVjRYekUxT1RNeE9URmZjbUZoYzE5eVpYWnBaWGN4TnpNM01UTTVOemcyT1RNdzE3MzcxMzk3OTM4ODc=","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":false}}],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_created_on","metric":"ZEdGaWJHVjRYekUxT1RNeE9URmZjbUZoYzE5eVpYWnBaWGN4TnpNM01UTTVOemcyT1RNdzE3MzcxMzk3OTM4ODc="}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"7l4knqyb","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"metrics","value":[{"dataSource":"dGFibGV4XzE1OTMxOTFfcmFhc19yZXZpZXcxNzM3MTM5Nzg2OTMw","id":"ZEdGaWJHVjRYekUxT1RNeE9URmZjbUZoYzE5eVpYWnBaWGN4TnpNM01UTTVOemcyT1RNdzE3MzcxMzk3OTM4ODc=","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label"}</component_props>
+        <h>12</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 18:51:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>39eeaa9fc30f16101f5afb377d013102</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_update_name>par_dashboard_widget_39eeaa9fc30f16101f5afb377d013102</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 19:47:56</sys_updated_on>
+        <visualization/>
+        <w>23</w>
+        <widget_props/>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</application>
+        <file_path/>
+        <instance_id>b49b406edb92f9d04162684e1396196b</instance_id>
+        <instance_name>dev206495</instance_name>
+        <name>par_dashboard_widget_39eeaa9fc30f16101f5afb377d013102</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">565a2a1bc30f16101f5afb377d0131f1</canvas><component display_value="Line">18ac962264404bcc0039359d184b15f3</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"line","newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Review","sourceType":"table","tableOrViewName":"x_1593191_raas_review","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE1OTMxOTFfcmFhc19yZXZpZXcxNzM3MTM5Nzg2OTMw","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"Review Per Day","headingLevel":2,"showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4XzE1OTMxOTFfcmFhc19yZXZpZXcxNzM3MTM5Nzg2OTMw","id":"ZEdGaWJHVjRYekUxT1RNeE9URmZjbUZoYzE5eVpYWnBaWGN4TnpNM01UTTVOemcyT1RNdzE3MzcxMzk3OTM4ODc=","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":false}}],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_created_on","metric":"ZEdGaWJHVjRYekUxT1RNeE9URmZjbUZoYzE5eVpYWnBaWGN4TnpNM01UTTVOemcyT1RNdzE3MzcxMzk3OTM4ODc="}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"7l4knqyb","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"metrics","value":[{"dataSource":"dGFibGV4XzE1OTMxOTFfcmFhc19yZXZpZXcxNzM3MTM5Nzg2OTMw","id":"ZEdGaWJHVjRYekUxT1RNeE9URmZjbUZoYzE5eVpYWnBaWGN4TnpNM01UTTVOemcyT1RNdzE3MzcxMzk3OTM4ODc=","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label"}</component_props><h>12</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-17 18:51:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>39eeaa9fc30f16101f5afb377d013102</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package><sys_policy/><sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope><sys_update_name>par_dashboard_widget_39eeaa9fc30f16101f5afb377d013102</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-17 19:47:56</sys_updated_on><visualization/><w>23</w><widget_props/><x>0</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1480736930</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>72baf07bc33252101f5afb377d013166</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 19:47:56</sys_created_on>
+        <sys_id>8fcb7a9fc34f16101f5afb377d01315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19475ced53a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 19:47:56</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>07cb7a9fd04f161061c2852dc9a2075c</update_guid>
+        <update_guid_history>07cb7a9fd04f161061c2852dc9a2075c:-1480736930,46fa329f274f16107c5375cd79166600:-30500692,f9eeaa9f2d0f1610bc23f6191dc3cd03:953881763</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">303a0f53c3cf16101f5afb377d01319e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 20:50:53</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>963224b51515461ba185b09272c4de01</sys_id>
+        <sys_metadata>39eeaa9fc30f16101f5afb377d013102</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RaaS - Raissa" source="x_1593191_raas">b476f9aac33a12101f5afb377d01311d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Raissa">b476f9aac33a12101f5afb377d01311d</sys_scope>
+        <sys_scope_delete display_value="">09fba108fcf048ec80a4aa10235a4584</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_39eeaa9fc30f16101f5afb377d013102</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_39eeaa9fc30f16101f5afb377d013102">8fcb7a9fc34f16101f5afb377d01315c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 20:50:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
